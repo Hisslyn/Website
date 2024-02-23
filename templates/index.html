@@ -9,6 +9,7 @@
 <body>
     <header>
         <h1>Welcome to My Website</h1>
+        <button id="toggleButton">Toggle Dark Mode</button>
     </header>
     <main>
         <section>
@@ -24,4 +25,12 @@
         <p>© 2024 My Website</p>
     </footer>
 </body>
+<nav>
+    <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('about') }}">About</a></li>
+        <li><a href="{{ url_for('contact') }}">Contact</a></li>
+    </ul>
+</nav>
+
 </html>
